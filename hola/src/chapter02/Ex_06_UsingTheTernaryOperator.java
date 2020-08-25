@@ -1,7 +1,5 @@
 package chapter02;
 
-import kotlin.reflect.jvm.internal.impl.utils.DFS;
-
 public class Ex_06_UsingTheTernaryOperator {
     public static void main(String[] args){
         int height = 117;   //cm
