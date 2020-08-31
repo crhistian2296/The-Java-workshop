@@ -10,7 +10,7 @@ public class Ex_06_UsingTheTernaryOperator {
         //printing height input
         System.out.println("You are " + height + " cm tall");
 
-        //if true result = first statement / if false result = second statement
+        //if (true) ==> result = first statement / (false) ==> result = second statement
         result = (height > minHeight) ? "You are allowed on the ride" : "Sorry, you do not meet the height requirements";
         System.out.println(result);
     }
