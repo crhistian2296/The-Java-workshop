@@ -8,7 +8,7 @@ public class Activity_01_TakignInputsAndComparingRanges {
 
         //if the number or arguments doesn't match
         while ((args.length != 2)){
-            System.err.println("\nInput error. Please introduce the input data this way: systole_value diastole_value");
+            System.err.println("\nInput error. Please introduce the input data this way: systole_value diastole_value\n");
             break;
         }
         if (args.length == 2){
@@ -18,13 +18,13 @@ public class Activity_01_TakignInputsAndComparingRanges {
             if ((systole < 90) && (systole > 0)){
                 System.out.println("\n-Low systolic pressure");
             }
-            if ((systole >= 90) && (systole <= 120)){
+            else if ((systole >= 90) && (systole <= 120)){
                 System.out.println("\n-Ideal systolic pressure");
             }
-            if ((systole > 120) && (systole <= 140)){
+            else if ((systole > 120) && (systole <= 140)){
                 System.out.println("\n-Pre-high systolic pressure");
             }
-            if (systole > 140){
+            else if (systole > 140){
                 System.out.println("\n-High systolic pressure");
             }
 
@@ -32,13 +32,13 @@ public class Activity_01_TakignInputsAndComparingRanges {
             if ((diastole < 60) && (diastole > 0)){
                 System.out.println("-Low diastolic pressure");
             }
-            if ((diastole >= 60) && (diastole <= 80)){
+            else if ((diastole >= 60) && (diastole <= 80)){
                 System.out.println("-Ideal diastolic pressure");
             }
-            if ((diastole > 80) && (diastole <= 90)){
+            else if ((diastole > 80) && (diastole <= 90)){
                 System.out.println("-Pre-high diastolic pressure");
             }
-            if (diastole > 90){
+            else if (diastole > 90){
                 System.out.println("-High diastolic pressure");
             }
             else
